@@ -1,0 +1,103 @@
+/*
+Author: Spencer Gordon
+Date:2/9/2022
+File name: style.css
+*/
+
+/* CSS reset*/
+body, header, nav, main, footer, h1, div, img {
+    Margin: 0;
+    padding: 0;
+    border: 0;
+}
+    
+/* Style rules for body and images */
+body {   
+    background-color: #000;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* style rule for header */
+header  {
+    width: 25%;
+    Float: left;
+}
+
+/* Style rules for the navigation area */
+nav   {
+        width:70%;
+        float: right;
+        margin: 5em 3em 0  0;
+}
+    
+nav ul {
+list-style-type: none;
+margin: 0;
+text-align: right;
+}
+
+
+nav li{
+    display: inline-block;
+    font-size: 1.5 em;
+    Font-family: Verdana , Arial, sans-seif;
+    font-weight:bold;  
+}
+
+
+nav li a{
+    display: block;
+    color:#fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+
+main {
+    clear: left;
+    background-color:#fff;
+    padding:2%;
+    font-size:1.25em;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+#Weights #Cardio #Training {
+    width: 29%;
+    float: left;
+    margin: 0.2%;
+}
+
+#excersises dt {
+    font-weight: bold;
+}
+
+#excersises dd {  
+    padding: 0.5% 1% 2% 0;
+}
+
+.external-link{
+    color: #666600;
+    font-weight:bold;
+    text-decoration:none;
+}
+#contact  {
+    text-align: center;
+}
+
+contact a  { 
+    color:#666600;
+    text-decoration:none;
+}
+/*style rules for the footer content /*
+
+footer p{
